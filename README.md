@@ -5,4 +5,5 @@ A Calendar view using UICollectionView
 
 * ARC
 * iOS 7.0 or later
-
+* Storyboard
+* Autolayout
