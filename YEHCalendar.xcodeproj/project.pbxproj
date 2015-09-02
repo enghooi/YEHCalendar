@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7598F8D1B9669FF003D3EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7598F8C1B9669FF003D3EF8 /* main.m */; };
+		F7598F901B9669FF003D3EF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7598F8F1B9669FF003D3EF8 /* AppDelegate.m */; };
+		F7598F961B9669FF003D3EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7598F941B9669FF003D3EF8 /* Main.storyboard */; };
+		F7598F981B9669FF003D3EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7598F971B9669FF003D3EF8 /* Images.xcassets */; };
+		F7598F9B1B9669FF003D3EF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7598F991B9669FF003D3EF8 /* LaunchScreen.xib */; };
+		F7598FA71B9669FF003D3EF8 /* YEHCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7598FA61B9669FF003D3EF8 /* YEHCalendarTests.m */; };
+		F7598FB71B966AAC003D3EF8 /* YEHCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7598FB21B966AAC003D3EF8 /* YEHCalendarCell.m */; };
+		F7598FB81B966AAC003D3EF8 /* YEHCalendarSelfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7598FB41B966AAC003D3EF8 /* YEHCalendarSelfVC.m */; };
+		F7598FB91B966AAC003D3EF8 /* YEHDayOfWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7598FB61B966AAC003D3EF8 /* YEHDayOfWeekCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7598FA11B9669FF003D3EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7598F7F1B9669FF003D3EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7598F861B9669FF003D3EF8;
+			remoteInfo = YEHCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7598F871B9669FF003D3EF8 /* YEHCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YEHCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7598F8B1B9669FF003D3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7598F8C1B9669FF003D3EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7598F8E1B9669FF003D3EF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7598F8F1B9669FF003D3EF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7598F951B9669FF003D3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7598F971B9669FF003D3EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7598F9A1B9669FF003D3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7598FA01B9669FF003D3EF8 /* YEHCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YEHCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7598FA51B9669FF003D3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7598FA61B9669FF003D3EF8 /* YEHCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YEHCalendarTests.m; sourceTree = "<group>"; };
+		F7598FB11B966AAC003D3EF8 /* YEHCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEHCalendarCell.h; sourceTree = "<group>"; };
+		F7598FB21B966AAC003D3EF8 /* YEHCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEHCalendarCell.m; sourceTree = "<group>"; };
+		F7598FB31B966AAC003D3EF8 /* YEHCalendarSelfVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEHCalendarSelfVC.h; sourceTree = "<group>"; };
+		F7598FB41B966AAC003D3EF8 /* YEHCalendarSelfVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEHCalendarSelfVC.m; sourceTree = "<group>"; };
+		F7598FB51B966AAC003D3EF8 /* YEHDayOfWeekCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEHDayOfWeekCell.h; sourceTree = "<group>"; };
+		F7598FB61B966AAC003D3EF8 /* YEHDayOfWeekCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEHDayOfWeekCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7598F841B9669FF003D3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7598F9D1B9669FF003D3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7598F7E1B9669FF003D3EF8 = {
+			isa = PBXGroup;
+			children = (
+				F7598F891B9669FF003D3EF8 /* YEHCalendar */,
+				F7598FA31B9669FF003D3EF8 /* YEHCalendarTests */,
+				F7598F881B9669FF003D3EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7598F881B9669FF003D3EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7598F871B9669FF003D3EF8 /* YEHCalendar.app */,
+				F7598FA01B9669FF003D3EF8 /* YEHCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7598F891B9669FF003D3EF8 /* YEHCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F7598FB01B966AAC003D3EF8 /* YEHClass */,
+				F7598F8E1B9669FF003D3EF8 /* AppDelegate.h */,
+				F7598F8F1B9669FF003D3EF8 /* AppDelegate.m */,
+				F7598F941B9669FF003D3EF8 /* Main.storyboard */,
+				F7598F971B9669FF003D3EF8 /* Images.xcassets */,
+				F7598F991B9669FF003D3EF8 /* LaunchScreen.xib */,
+				F7598F8A1B9669FF003D3EF8 /* Supporting Files */,
+			);
+			path = YEHCalendar;
+			sourceTree = "<group>";
+		};
+		F7598F8A1B9669FF003D3EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7598F8B1B9669FF003D3EF8 /* Info.plist */,
+				F7598F8C1B9669FF003D3EF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7598FA31B9669FF003D3EF8 /* YEHCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7598FA61B9669FF003D3EF8 /* YEHCalendarTests.m */,
+				F7598FA41B9669FF003D3EF8 /* Supporting Files */,
+			);
+			path = YEHCalendarTests;
+			sourceTree = "<group>";
+		};
+		F7598FA41B9669FF003D3EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7598FA51B9669FF003D3EF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7598FB01B966AAC003D3EF8 /* YEHClass */ = {
+			isa = PBXGroup;
+			children = (
+				F7598FB11B966AAC003D3EF8 /* YEHCalendarCell.h */,
+				F7598FB21B966AAC003D3EF8 /* YEHCalendarCell.m */,
+				F7598FB31B966AAC003D3EF8 /* YEHCalendarSelfVC.h */,
+				F7598FB41B966AAC003D3EF8 /* YEHCalendarSelfVC.m */,
+				F7598FB51B966AAC003D3EF8 /* YEHDayOfWeekCell.h */,
+				F7598FB61B966AAC003D3EF8 /* YEHDayOfWeekCell.m */,
+			);
+			path = YEHClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7598F861B9669FF003D3EF8 /* YEHCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7598FAA1B9669FF003D3EF8 /* Build configuration list for PBXNativeTarget "YEHCalendar" */;
+			buildPhases = (
+				F7598F831B9669FF003D3EF8 /* Sources */,
+				F7598F841B9669FF003D3EF8 /* Frameworks */,
+				F7598F851B9669FF003D3EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YEHCalendar;
+			productName = YEHCalendar;
+			productReference = F7598F871B9669FF003D3EF8 /* YEHCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7598F9F1B9669FF003D3EF8 /* YEHCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7598FAD1B9669FF003D3EF8 /* Build configuration list for PBXNativeTarget "YEHCalendarTests" */;
+			buildPhases = (
+				F7598F9C1B9669FF003D3EF8 /* Sources */,
+				F7598F9D1B9669FF003D3EF8 /* Frameworks */,
+				F7598F9E1B9669FF003D3EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7598FA21B9669FF003D3EF8 /* PBXTargetDependency */,
+			);
+			name = YEHCalendarTests;
+			productName = YEHCalendarTests;
+			productReference = F7598FA01B9669FF003D3EF8 /* YEHCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7598F7F1B9669FF003D3EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yeh;
+				TargetAttributes = {
+					F7598F861B9669FF003D3EF8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F7598F9F1B9669FF003D3EF8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F7598F861B9669FF003D3EF8;
+					};
+				};
+			};
+			buildConfigurationList = F7598F821B9669FF003D3EF8 /* Build configuration list for PBXProject "YEHCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7598F7E1B9669FF003D3EF8;
+			productRefGroup = F7598F881B9669FF003D3EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7598F861B9669FF003D3EF8 /* YEHCalendar */,
+				F7598F9F1B9669FF003D3EF8 /* YEHCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7598F851B9669FF003D3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7598F961B9669FF003D3EF8 /* Main.storyboard in Resources */,
+				F7598F9B1B9669FF003D3EF8 /* LaunchScreen.xib in Resources */,
+				F7598F981B9669FF003D3EF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7598F9E1B9669FF003D3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7598F831B9669FF003D3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7598FB71B966AAC003D3EF8 /* YEHCalendarCell.m in Sources */,
+				F7598FB81B966AAC003D3EF8 /* YEHCalendarSelfVC.m in Sources */,
+				F7598FB91B966AAC003D3EF8 /* YEHDayOfWeekCell.m in Sources */,
+				F7598F901B9669FF003D3EF8 /* AppDelegate.m in Sources */,
+				F7598F8D1B9669FF003D3EF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7598F9C1B9669FF003D3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7598FA71B9669FF003D3EF8 /* YEHCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7598FA21B9669FF003D3EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7598F861B9669FF003D3EF8 /* YEHCalendar */;
+			targetProxy = F7598FA11B9669FF003D3EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7598F941B9669FF003D3EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7598F951B9669FF003D3EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7598F991B9669FF003D3EF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7598F9A1B9669FF003D3EF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7598FA81B9669FF003D3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7598FA91B9669FF003D3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7598FAB1B9669FF003D3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YEHCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7598FAC1B9669FF003D3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YEHCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7598FAE1B9669FF003D3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YEHCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YEHCalendar.app/YEHCalendar";
+			};
+			name = Debug;
+		};
+		F7598FAF1B9669FF003D3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YEHCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YEHCalendar.app/YEHCalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7598F821B9669FF003D3EF8 /* Build configuration list for PBXProject "YEHCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7598FA81B9669FF003D3EF8 /* Debug */,
+				F7598FA91B9669FF003D3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7598FAA1B9669FF003D3EF8 /* Build configuration list for PBXNativeTarget "YEHCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7598FAB1B9669FF003D3EF8 /* Debug */,
+				F7598FAC1B9669FF003D3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7598FAD1B9669FF003D3EF8 /* Build configuration list for PBXNativeTarget "YEHCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7598FAE1B9669FF003D3EF8 /* Debug */,
+				F7598FAF1B9669FF003D3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7598F7F1B9669FF003D3EF8 /* Project object */;
+}

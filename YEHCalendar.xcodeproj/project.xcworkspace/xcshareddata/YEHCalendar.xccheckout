@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7AF2CDF7-4CD7-4CB8-B87C-9534A0302D48</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C8D8C58F8CDDED71F5B38AACD818964C6537F32</key>
+		<string>https://github.com/enghooi/YEHCalendar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YEHCalendar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C8D8C58F8CDDED71F5B38AACD818964C6537F32</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/enghooi/YEHCalendar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C8D8C58F8CDDED71F5B38AACD818964C6537F32</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C8D8C58F8CDDED71F5B38AACD818964C6537F32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YEHCalendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
